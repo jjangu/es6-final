@@ -39,7 +39,7 @@ module.exports = (function (startingLevel) {
         this.evolvesAt = [16,32];
         this.evolvesTo = ['Ivysaur', 'Venusaur'];
         this.canEvolve = 2;
-        this.images = ['../assets/img/Bulbasaur.gif', '../assets/img/Ivysaur.gif', '../assets/img/Venusaur.gif'];
+        this.images = ['./assets/img/Bulbasaur.gif', './assets/img/Ivysaur.gif', './assets/img/Venusaur.gif'];
         this.imageSrc = this.images[evolveIndex];
         this.attack = function() {
             // console.log('Razor Leaf');
@@ -54,7 +54,7 @@ module.exports = (function (startingLevel) {
         this.evolvesAt = [16,36];
         this.evolvesTo = ['Charmeleon', 'Charizard'];
         this.canEvolve = 2;
-        this.images = ['../assets/img/Charmander.gif', '../assets/img/Charmeleon.gif', '../assets/img/Charizard.gif'];
+        this.images = ['./assets/img/Charmander.gif', './assets/img/Charmeleon.gif', './assets/img/Charizard.gif'];
         this.imageSrc = this.images[evolveIndex];
         this.attack = function() {
             // console.log('Flamethrower');
@@ -69,7 +69,7 @@ module.exports = (function (startingLevel) {
         this.evolvesAt = [16,36];
         this.evolvesTo = ['Wartortle', 'Blastoise'];
         this.canEvolve = 2;
-        this.images = ['../assets/img/Squirtle.gif', '../assets/img/Wartortle.gif', '../assets/img/Blastoise.gif'];
+        this.images = ['./assets/img/Squirtle.gif', './assets/img/Wartortle.gif', './assets/img/Blastoise.gif'];
         this.imageSrc = this.images[evolveIndex];
         this.attack = function() {
             // console.log('Flamethrower');
